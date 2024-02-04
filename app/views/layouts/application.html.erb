@@ -11,6 +11,11 @@
   </head>
 
   <body>
+    <h1>This is the Yet Another Blog Application</h1>
+    <nav>
+      <%= link_to 'Home', root_path %>
+      <%= link_to 'New Post', new_post_path %>
+    </nav>
     <%= yield %>
   </body>
 </html>
